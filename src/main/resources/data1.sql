@@ -1,0 +1,13 @@
+INSERT INTO dbottesting.range_age (range_desc) VALUES ('0 - 30');
+INSERT INTO dbottesting.range_age (range_desc) VALUES ('31 - 50');
+INSERT INTO dbottesting.range_age (range_desc) VALUES ('51 - 100');
+INSERT INTO dbottesting.gender (gender_desc) VALUES ('male');
+INSERT INTO dbottesting.gender (gender_desc) VALUES ('female');
+INSERT INTO dbottesting.gender (gender_desc) VALUES ('other');
+INSERT INTO dbottesting.country (continent,country_name) VALUES ('Asia','thailand');
+INSERT INTO dbottesting.country (continent,country_name) VALUES ('South America','brazil');
+INSERT INTO dbottesting.country (continent,country_name) VALUES ('Asia','vietnam');
+INSERT INTO dbottesting.country (continent,country_name) VALUES ('Europe','france');
+INSERT INTO dbottesting.country (continent,country_name) VALUES ('Asia','china');
+INSERT INTO dbottesting.country (continent,country_name) VALUES ('Asia','japan');
+INSERT INTO dbottesting.country (continent,country_name) VALUES ('Europe','italy');

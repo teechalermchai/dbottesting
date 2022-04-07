@@ -14,14 +14,14 @@ $(document).ready(function () {
 		$("#test").empty();
 		$("#test").append('<div class="container-fluid">'+
 				'<div class="row">'+
-				'<div class="col-md-6 col-sm-6 col-12">'+
+				'<div class="col-md-12 col-sm-12 col-12">'+
 					'<div>'+
 						'<h4>what is your gender<span></span></h4>'+
 					'</div>'+
 				'</div>'+
 			'</div>'+
 			'<div class="row">'+
-				'<div class="col-lg-3 col-md-6 col-sm-6 col-12">'+
+				'<div class="col-lg-12 col-md-12 col-sm-12 col-12">'+
 					'<select id=gender class="form-control" data-width="100%">'+
 						'<option disabled selected></option>'+
 					'</select>'+
@@ -29,7 +29,7 @@ $(document).ready(function () {
 			'</div>'+
 		'</div>'+
 			'<div class="footer">'+
-					'<div class="col-lg-3 col-md-6 col-sm-6 col-12">'+
+					'<div class="col-lg-12 col-md-12 col-sm-12 col-12">'+
 					'<br><button id="backGender" type="button" class="btn btn-secondary">back</button>'+
 					'<button id="nextGender" type="button" class="btn btn-primary float-right">next</button>'+
 					'</div>'+
@@ -57,14 +57,14 @@ $(document).ready(function () {
 		$("#test").empty();
 		$("#test").append('<div class="container-fluid">'+
 				'<div class="row">'+
-				'<div class="col-md-6 col-sm-6 col-12">'+
+				'<div class="col-md-12 col-sm-12 col-12">'+
 					'<div>'+
 						'<h4>what is your gender<span></span></h4>'+
 					'</div>'+
 				'</div>'+
 			'</div>'+
 			'<div class="row">'+
-				'<div class="col-lg-3 col-md-6 col-sm-6 col-12">'+
+				'<div class="col-lg-12 col-md-12 col-sm-12 col-12">'+
 					'<select id=gender class="form-control" data-width="100%">'+
 						'<option disabled selected></option>'+
 					'</select>'+
@@ -72,7 +72,7 @@ $(document).ready(function () {
 			'</div>'+
 		'</div>'+
 			'<div class="footer">'+
-					'<div class="col-lg-3 col-md-6 col-sm-6 col-12">'+
+					'<div class="col-lg-12 col-md-12 col-sm-12 col-12">'+
 					'<br><button id="backGender" type="button" class="btn btn-secondary">back</button>'+
 					'<button id="nextGender" type="button" class="btn btn-primary float-right">next</button>'+
 					'</div>'+
@@ -97,28 +97,28 @@ $(document).ready(function () {
 		$("#test").empty();
 		$("#test").append('<div class="container-fluid">'+
 			'<div class="row">'+
-				'<div class="col-md-6 col-sm-6 col-12">'+
+				'<div class="col-md-12 col-sm-12 col-12">'+
 					'<h4>please enter your data</h4>'+
 				'</div>'+
 			'</div>'+
 			'<div class="row">'+
-				'<div class="col-lg-3 col-md-6 col-sm-6 col-12">First name</div>'+
+				'<div class="col-lg-12 col-md-12 col-sm-12 col-12">First name</div>'+
 			'</div>'+
 			'<div class="row">'+
-				'<div class="col-lg-3 col-md-6 col-sm-6 col-12">'+
+				'<div class="col-lg-12 col-md-12 col-sm-12 col-12">'+
 					'<input type="text" id="firstname" class="form-control">'+
 				'</div>'+
 			'</div>'+
 			'<div class="row">'+
-				'<div class="col-lg-3 col-md-6 col-sm-6 col-12">Last name</div>'+
+				'<div class="col-lg-12 col-md-12 col-sm-12 col-12">Last name</div>'+
 			'</div>'+
 			'<div class="row">'+
-				'<div class="col-lg-3 col-md-6 col-sm-6 col-12">'+
+				'<div class="col-lg-12 col-md-12 col-sm-12 col-12">'+
 					'<input type="text" id="lastname" class="form-control">'+
 				'</div>'+
 			'</div>'+
 			'<div class="row">'+
-				'<div class="col-lg-3 col-md-6 col-sm-6 col-12">'+
+				'<div class="col-lg-12 col-md-12 col-sm-12 col-12">'+
 					'E-mail'+
 					'<div class="row">'+
 						'<span id="failReasonEmail" class="col-12"></span>'+
@@ -126,13 +126,13 @@ $(document).ready(function () {
 				'</div>'+
 			'</div>'+
 			'<div class="row">'+
-				'<div class="col-lg-3 col-md-6 col-sm-6 col-12">'+
+				'<div class="col-lg-12 col-md-12 col-sm-12 col-12">'+
 					'<input type="text" id="email" class="form-control">'+
 				'</div>'+
 			'</div>'+
 		'</div>'+
 		'<div class="footer">'+
-		'<div class="col-lg-3 col-md-6 col-sm-6 col-12">'+
+		'<div class="col-lg-12 col-md-12 col-sm-12 col-12">'+
 					'<br><button id="nextName" type="button" class="btn btn-primary float-right">next</button>'+
 					'</div>'+
 		'</div>');
@@ -146,7 +146,7 @@ $(document).ready(function () {
 		$("#test").empty();
 		$("#test").append('<div class="container-fluid">'+
 		'<div class="row">'+
-				'<div class="col-md-6 col-sm-6 col-12">'+
+				'<div class="col-md-12 col-sm-12 col-12">'+
 					'<h4>select your age range</h4>'+
 				'</div>'+
 			'</div>'+
@@ -162,14 +162,14 @@ $(document).ready(function () {
 						$(result).each(function(index){
         					rangeAge = result[index];
         					$("#rangeAge").append('<div class="row">'+
-				'<div class="col-lg-3 col-md-6 col-sm-6 col-12">'+
+				'<div class="col-lg-12 col-md-12 col-sm-12 col-12">'+
 					'<input type="radio" id="age'+rangeAge["rangeAgeId"]+'" name="age"> <label>'+rangeAge["rangeDesc"]+'</label>'+
 				'</div>'+
 			'</div>');
 					  	});
 					  	
 					  	$("#test").append('<div class="footer">'+
-							'<div class="col-lg-3 col-md-6 col-sm-6 col-12">'+
+							'<div class="col-lg-12 col-md-12 col-sm-12 col-12">'+
 							'<br><button id="backAge" type="button" class="btn btn-secondary">back</button>'+
 							'<button id="nextAge" type="button" class="btn btn-primary float-right">next</button>'+
 							'</div>'+
@@ -187,7 +187,7 @@ $(document).ready(function () {
 		$("#test").empty();
 		$("#test").append('<div class="container-fluid" id="test1">'+
 		'<div class="row">'+
-				'<div class="col-md-6 col-sm-6 col-12">'+
+				'<div class="col-md-12 col-sm-12 col-12">'+
 					'<h4>select your age range</h4>'+
 				'</div>'+
 			'</div>');
@@ -202,14 +202,14 @@ $(document).ready(function () {
 						$(result).each(function(index){
         					rangeAge = result[index];
         					$("#test1").append('<div class="row">'+
-				'<div class="col-lg-3 col-md-6 col-sm-6 col-12">'+
+				'<div class="col-lg-12 col-md-12 col-sm-12 col-12">'+
 					'<input type="radio" id="age'+rangeAge["rangeAgeId"]+'" name="age"> <label>'+rangeAge["rangeDesc"]+'</label>'+
 				'</div>'+
 			'</div>');
 					  	});
 					  	
 					  	$("#test").append('<div class="footer">'+
-							'<div class="col-lg-3 col-md-6 col-sm-6 col-12">'+
+							'<div class="col-lg-12 col-md-12 col-sm-12 col-12">'+
 							'<br><button id="backAge" type="button" class="btn btn-secondary">back</button>'+
 							'<button id="nextAge" type="button" class="btn btn-primary float-right">next</button>'+
 							'</div>'+
@@ -238,7 +238,7 @@ $(document).ready(function () {
 		$("#test").empty();
 		$("#test").append('<div class="container-fluid" id="test1">'+
 				'<div class="row">'+
-				'<div class="col-md-6 col-sm-6 col-12">'+
+				'<div class="col-md-12 col-sm-12 col-12">'+
 					'<div>'+
 						'<h4>select all countries from Asia<span></span></h4>'+
 					'</div>'+
@@ -255,14 +255,14 @@ $(document).ready(function () {
 						$(result).each(function(index){
         					country = result[index];
         					$("#test1").append('<div class="row">'+
-				'<div class="col-lg-3 col-md-6 col-sm-6 col-12">'+
+				'<div class="col-lg-12 col-md-12 col-sm-12 col-12">'+
 					'<input type="checkbox" id="'+country["countryId"]+'" name="checkbox"> <label >'+country["countryName"]+'</label>'+
   				'</div>'+
 			'</div>');
 					  	});
 					  	
 					  	$("#test").append('<div class="footer">'+
-							'<div class="col-lg-3 col-md-6 col-sm-6 col-12">'+
+							'<div class="col-lg-12 col-md-12 col-sm-12 col-12">'+
 							'<br><button id="backquestion" type="button" class="btn btn-secondary">back</button>'+
 							'<button id="nextquestion" type="button" class="btn btn-primary float-right">next</button>'+
 							'</div>'+
@@ -279,7 +279,7 @@ $(document).ready(function () {
 		$("#test").empty();
 		$("#test").append('<div class="container-fluid" id="test1">'+
 				'<div class="row">'+
-				'<div class="col-md-6 col-sm-6 col-12">'+
+				'<div class="col-md-12 col-sm-12 col-12">'+
 					'<div>'+
 						'<h4>select all countries from Asia<span></span></h4>'+
 					'</div>'+
@@ -296,14 +296,14 @@ $(document).ready(function () {
 						$(result).each(function(index){
         					country = result[index];
         					$("#test1").append('<div class="row">'+
-				'<div class="col-lg-3 col-md-6 col-sm-6 col-12">'+
+				'<div class="col-lg-12 col-md-12 col-sm-12 col-12">'+
 					'<input type="checkbox" id="'+country["countryId"]+'" name="checkbox"> <label >'+country["countryName"]+'</label>'+
   				'</div>'+
 			'</div>');
 					  	});
 					  	
 					  	$("#test").append('<div class="footer">'+
-							'<div class="col-lg-3 col-md-6 col-sm-6 col-12">'+
+							'<div class="col-lg-12 col-md-12 col-sm-12 col-12">'+
 							'<br><button id="backquestion" type="button" class="btn btn-secondary">back</button>'+
 							'<button id="nextquestion" type="button" class="btn btn-primary float-right">next</button>'+
 							'</div>'+
@@ -334,12 +334,12 @@ $(document).ready(function () {
 		$("#test").empty();
 		$("#test").append('<div class="container-fluid">'+
 					'<div class="row">'+
-				'<div class="col-md-6 col-sm-6 col-12">'+
+				'<div class="col-md-12 col-sm-12 col-12">'+
 					'<h4>how spicy do you like your food</h4>'+
 				'</div>'+
 			'</div>'+
 			'<div class="row">'+
-				'<div class="col-lg-3 col-md-6 col-sm-6 col-12">'+
+				'<div class="col-lg-12 col-md-12 col-sm-12 col-12">'+
 					'<div class="slidecontainer">'+
 						'<input type="range" min="1" max="100" value="50" class="slider" id="myRange">'+
 						'<p>Value: <span id="demo"></span></p>'+
@@ -348,7 +348,7 @@ $(document).ready(function () {
 			'</div>'+
 			'</div>'+
 			'<div class="footer">'+
-					'<div class="col-lg-3 col-md-6 col-sm-6 col-12">'+
+					'<div class="col-lg-12 col-md-12 col-sm-12 col-12">'+
 					'<br><button id="backFav" type="button" class="btn btn-secondary">back</button>'+
 					'<button id="submit" type="button" class="btn btn-primary float-right">submit</button>'+
 					'</div>'+
@@ -448,10 +448,10 @@ $(document).ready(function () {
 								countryName = countryId["countryName"];
 								
 								if(index<1){
-									country = '<div class="col-lg-3 col-md-6 col-sm-6 col-6">'+countryName+'</div>'
+									country = '<div class="col-lg-6 col-md-6 col-sm-6 col-6">'+countryName+'</div>'
 									
 								} else {
-									add = '<div class="row"><div class="col-lg-3 col-md-6 col-sm-6 col-6"></div><div class="col-lg-3 col-md-6 col-sm-6 col-6">'+countryName+'</div></div>'
+									add = '<div class="row"><div class="col-lg-6 col-md-6 col-sm-6 col-6"></div><div class="col-lg-6 col-md-6 col-sm-6 col-6">'+countryName+'</div></div>'
 									country1 = country1+add;
 								}
 								
@@ -459,29 +459,29 @@ $(document).ready(function () {
 							
 							$("#test").empty();
 							$("#test").append('<div class="row">'+
-			'<div class="col-lg-3 col-md-6 col-sm-6 col-6">First name :</div>'+
-			'<div class="col-lg-3 col-md-6 col-sm-6 col-6">'+fname+'</div>'+
+			'<div class="col-lg-6 col-md-6 col-sm-6 col-6">First name :</div>'+
+			'<div class="col-lg-6 col-md-6 col-sm-6 col-6">'+fname+'</div>'+
 		'</div>'+
 		'<div class="row">'+
-			'<div class="col-lg-3 col-md-6 col-sm-6 col-6">Last name :</div>'+
-			'<div class="col-lg-3 col-md-6 col-sm-6 col-6">'+lname+'</div>'+
+			'<div class="col-lg-6 col-md-6 col-sm-6 col-6">Last name :</div>'+
+			'<div class="col-lg-6 col-md-6 col-sm-6 col-6">'+lname+'</div>'+
 		'</div>'+
 		'<div class="row">'+
-			'<div class="col-lg-3 col-md-6 col-sm-6 col-6">E-mail :</div>'+
-			'<div class="col-lg-3 col-md-6 col-sm-6 col-6">'+email+'</div>'+
+			'<div class="col-lg-6 col-md-6 col-sm-6 col-6">E-mail :</div>'+
+			'<div class="col-lg-6 col-md-6 col-sm-6 col-6">'+email+'</div>'+
 		'</div>'+
 		'<div class="row">'+
-			'<div class="col-lg-3 col-md-6 col-sm-6 col-6">Gender :</div>'+
-			'<div class="col-lg-3 col-md-6 col-sm-6 col-6">'+genderDesc+'</div>'+
+			'<div class="col-lg-6 col-md-6 col-sm-6 col-6">Gender :</div>'+
+			'<div class="col-lg-6 col-md-6 col-sm-6 col-6">'+genderDesc+'</div>'+
 		'</div>'+
 		'<div class="row">'+
-			'<div class="col-lg-3 col-md-6 col-sm-6 col-6">Age range :</div>'+
-			'<div class="col-lg-3 col-md-6 col-sm-6 col-6">'+rangeDesc+'</div>'+
+			'<div class="col-lg-6 col-md-6 col-sm-6 col-6">Age range :</div>'+
+			'<div class="col-lg-6 col-md-6 col-sm-6 col-6">'+rangeDesc+'</div>'+
 		'</div>'+
 		'<div class="row">'+
-			'<div class="col-lg-3 col-md-6 col-sm-6 col-6">Country :</div>'+country+'</div>'+country1+'<div class="row">'+
-			'<div class="col-lg-3 col-md-6 col-sm-6 col-6">Spicy Level :</div>'+
-			'<div class="col-lg-3 col-md-6 col-sm-6 col-6">'+spicyLv+'</div>'+
+			'<div class="col-lg-6 col-md-6 col-sm-6 col-6">Country :</div>'+country+'</div>'+country1+'<div class="row">'+
+			'<div class="col-lg-6 col-md-6 col-sm-6 col-6">Spicy Level :</div>'+
+			'<div class="col-lg-6 col-md-6 col-sm-6 col-6">'+spicyLv+'</div>'+
 		'</div>');
 							
 							
